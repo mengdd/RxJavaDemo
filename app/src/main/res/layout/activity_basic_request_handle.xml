@@ -11,10 +11,19 @@
     tools:context="com.ddmeng.rxjavademo.BasicRequestHandleActivity">
 
     <Button
-        android:id="@+id/button_send"
+        android:id="@+id/button_send_one"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/send_request"
+        android:text="@string/send_single_request"
+        android:textAllCaps="false"
+        android:textSize="@dimen/normal_text_size" />
+
+    <Button
+        android:id="@+id/button_send_multiple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send_multiple_requests"
+        android:textAllCaps="false"
         android:textSize="@dimen/normal_text_size" />
 
 </LinearLayout>

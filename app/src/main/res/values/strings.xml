@@ -2,5 +2,6 @@
     <string name="app_name">RxJavaDemo</string>
 
     <string name="demo_basic_request_and_handle">Basic Request and Handle</string>
-    <string name="send_request">Send Request</string>
+    <string name="send_single_request">Send One Request</string>
+    <string name="send_multiple_requests">Send Multiple Requests - flatMap()</string>
 </resources>
