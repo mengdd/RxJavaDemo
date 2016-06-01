@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         samples = new Sample[]{
+                new Sample(R.string.demo_basic_request_and_handle, BasicRequestHandleActivity.class)
         };
 
         mListView.setAdapter(new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, android.R.id.text1, samples));
